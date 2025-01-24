@@ -52,7 +52,7 @@ body {
     background-color: white;
     width: 90%;
     height: 95%;
-    top: -5%; /* Adjusted for higher appearance */
+    top: 2%; /* Adjusted for letter visibility */
     border-radius: 10px;
     box-shadow: 0 2px 26px rgba(0, 0, 0, .12);
     margin-left: auto;
@@ -106,7 +106,7 @@ body {
 }
 
 .open .letter {
-    transform: translatey(-120px); /* Increased height for more reveal */
+    transform: translatey(-100px); /* Adjusted height for more movement */
     transition: transform 0.4s 0.6s ease, z-index 0.6s;
     z-index: 2;
 }
@@ -235,3 +235,4 @@ body {
     font-size: 70px;
     margin: 150px;
 }
+
